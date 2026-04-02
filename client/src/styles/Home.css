@@ -665,13 +665,13 @@
   }
 
   .hero-copy {
-    text-align: right;
-    align-items: flex-end;
-    width: min(280px, 100%);
+    text-align: center;
+    align-items: center;
+    width: min(320px, 100%);
   }
 
   .hero h1 {
-    align-items: flex-end;
+    align-items: center;
     font-size: clamp(1.85rem, 10vw, 2.55rem);
     line-height: 0.86;
     letter-spacing: -0.1em;
@@ -680,24 +680,23 @@
   .headline-line {
     white-space: normal;
     width: 100%;
-    text-align: right;
+    text-align: center;
   }
 
   .hero-description {
     font-size: 0.68rem;
     max-width: 250px;
-    margin-right: 0;
-    margin-left: auto;
+    margin-inline: auto;
     line-height: 1.35;
   }
 
   .avatar-field {
-    min-height: 260px;
+    min-height: 210px;
   }
 
   .avatar-featured {
     left: 20%;
-    top: 28px;
+    top: 36px;
     width: 86px;
     height: 86px;
   }
@@ -724,14 +723,14 @@
     width: 72px;
     height: 72px;
     left: 48%;
-    top: 58px;
+    top: 64px;
   }
 
   .avatar-right-1 {
     width: 72px;
     height: 72px;
     left: 58%;
-    top: 100px;
+    top: 86px;
   }
 
   .avatar-right-2 {
